@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\Blazr.Medusa.Blue\Blazr.Medusa.Blue.csproj" />
+    <ProjectReference Include="..\Blazr.Medusa.Green\Blazr.Medusa.Green.csproj" />
+    <ProjectReference Include="..\Blazr.Medusa.Grey\Blazr.Medusa.Grey.csproj" />
+    <ProjectReference Include="..\Blazr.Medusa.Purple\Blazr.Medusa.Purple.csproj" />
+    <ProjectReference Include="..\Blazr.Medusa.Red\Blazr.Medusa.Red.csproj" />
+    <ProjectReference Include="..\Blazr.Medusa.SPA\Blazr.Medusa.SPA.csproj" />
+  </ItemGroup>
+
+</Project>
